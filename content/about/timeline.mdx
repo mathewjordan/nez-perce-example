@@ -1,0 +1,61 @@
+---
+referencedManifests:
+  - https://api.dc.library.northwestern.edu/api/v2/works/84aec8c1-42e8-4e2c-a6b2-1c7e3790217f?as=iiif
+  - https://api.dc.library.northwestern.edu/api/v2/works/588a6527-88b6-4b70-ae6c-f42aceea9efb?as=iiif
+  - https://api.dc.library.northwestern.edu/api/v2/works/14a6aa15-9e12-47a7-9617-91f430d4f47b?as=iiif
+---
+
+<Timeline
+  title="Displacement, Resistance, and Survival of the Nez Perce People"
+  description="A timeline highlighting key moments in Nez Perce history from 1850 to 1910, focusing on treaty-making, conflict, forced removal, and resilience in the face of U.S. expansion."
+  range={{start: "1850", end: "1910", granularity: "year"}}
+  threshold={5}
+  steps={10}
+  height="1000px"
+>
+  <TimelinePoint
+    date="1855"
+    title="Treaty of Walla Walla"
+    summary="Nez Perce leaders signed a treaty with the United States that recognized a large reservation encompassing much of their traditional homeland in present-day Idaho, Oregon, and Washington."
+  />
+  <TimelinePoint
+    date="1863"
+    title="1863 Treaty and Land Loss"
+    highlight
+    summary="Under pressure, some Nez Perce leaders signed a new treaty drastically reducing their land base. Many bands, including that of Chief Joseph, rejected the treaty as unjust."
+    referencedManifests={[
+      "https://api.dc.library.northwestern.edu/api/v2/works/14a6aa15-9e12-47a7-9617-91f430d4f47b?as=iiif",
+    ]}
+  />
+  <TimelinePoint
+    date="1877"
+    title="Nez Perce War"
+    highlight
+    summary="After being ordered onto a smaller reservation, Nez Perce bands led by Chief Joseph fled the U.S. Army, traveling over 1,000 miles in an attempt to reach safety in Canada."
+  />
+  <TimelinePoint
+    date="1877"
+    title="Chief Joseph’s Surrender"
+    summary="Near the Canadian border, Chief Joseph surrendered, delivering his famous speech: 'I will fight no more forever,' symbolizing both resistance and profound loss."
+  />
+  <TimelinePoint
+    date="1878"
+    title="Forced Exile to Indian Territory"
+    summary="Instead of being allowed to return home, the Nez Perce were sent to Indian Territory (present-day Oklahoma), where many died from disease and harsh conditions."
+  />
+  <TimelinePoint
+    date="1885"
+    title="Partial Return to the Northwest"
+    summary="Surviving Nez Perce were allowed to return to the Northwest, though many were resettled on reservations far from their original homeland."
+  />
+  <TimelinePoint
+    date="1904"
+    title="Death of Chief Joseph"
+    highlight
+    summary="Chief Joseph died on the Colville Reservation in Washington. His life became emblematic of Indigenous resistance, leadership, and survival."
+    referencedManifests={[
+      "https://api.dc.library.northwestern.edu/api/v2/works/84aec8c1-42e8-4e2c-a6b2-1c7e3790217f?as=iiif",
+      "https://api.dc.library.northwestern.edu/api/v2/works/588a6527-88b6-4b70-ae6c-f42aceea9efb?as=iiif",
+    ]}
+  />
+</Timeline>
